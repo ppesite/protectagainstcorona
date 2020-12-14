@@ -3,11 +3,15 @@
 <head>
 <title>protectagainstcorona.net</title>
  <meta charset="utf-8">
+ <meta name="description" content="Vor dem Coronavirus schützen">
+ <meta name="keywords" content="COVID-19 Ressourcen">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <!-- Bootstrap CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
  <!-- MyStyle CSS -->
  <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -15,11 +19,12 @@
 <body>
 
 <!-- Navigation Top Bar with Contact Info and Flags -->
-<nav class="navbar bg-dark navbar-dark">
+<nav class="navbar bg-navbar navbar-dark">
     <!-- Contact Info -->
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="#">Kontaktieren Sie mich, um diese Domain zu kaufen.</a>
+            <!--a class="nav-link" href="#">Contact me to buy this domain.</a-->
+            <button type="button" class="btn btn-contact btn-lg" data-toggle="modal" data-target="#myModal">Domain kaufen</button>
         </li>
     </ul>
     
@@ -34,35 +39,45 @@
 </nav>
     
 <!-- Main Content -->
-<div class="jumbotron text-center" style="background-color:rgb(164, 209, 238);">
-    <h1>Vor Corona schützen</h1>
-    <img src="./covid.png" alt="COVID-19 Image" width="240" height="240">
-    <h2>COVID-19-Ressourcen</h2>
+<div class="jumbotron text-center">
+    <h1>Vor dem Coronavirus schützen</h1>
+    <img src="./covid.png" alt="COVID-19 Coronavirus 3D Image Render" width="240" height="240">
+    <h2>COVID-19 Ressourcen</h2>
+    <a href="https://www.infektionsschutz.de/coronavirus.html" target="_">Infektionsschutz: Coronavirus</a>
+    <br/>
+    <a href="https://www.zusammengegencorona.de/informieren/basiswissen-coronavirus/?gclid=CjwKCAiAlNf-BRB_EiwA2osbxZS72AeK2JB1l6n_8Yd9Xe6ysbU2HdQhtCnWNJU1C5ZDazBiIscEmhoCiJwQAvD_BwE" target="_">Bundesministerium für Gesundheit: Zusammen gegen Corona</a>
     <br>
-    <h3>Orte, an denen man Masken bekommt</h3>
-    <a href="https://www.google.com" target="_">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <h3>Orte, um Händedesinfektionsmittel zu bekommen</h3>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <h3>Orte zum Testen</h3>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
-    <a href="https://www.google.com">Tesco</a>
+    <a href="https://www.cochrane.de/de/covid-19-evidenz-von-cochrane-und-andere-ressourcen" target="_">COVID-19: Evidenz von Cochrane und andere Ressourcen</a>
+    <br/>
+    <br/>
+    <h3>Mundschutz: Wo kann man Masken kaufen?</h3>
+    <a href="https://www.oekotest.de/gesundheit-medikamente/Maskenpflicht-Wo-kann-ich-eine-Maske-kaufen_11244_1.html" target="_">Maskenpflicht: Wo kann ich eine Maske kaufen?</a>
+    <br>
+    <a href="hhttps://www.rnd.de/gesundheit/corona-masken-wo-kann-man-masken-kaufen-welche-schutzmasken-sind-am-besten-schutzen-sie-wirklich-UFKAPPNHLNDVNDUGBZEO2SV3OM.html">Maskenpflicht: Die wichtigsten Fragen und Antworten zum Mund-Nasen-Schutz</a>
+    <br/>
+    <br/>
+    <h3>Wo kann man einen COVID-19-Test machen?</h3>
+    <a href="https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Teststrategie/Nat-Teststrat.html" target="_">Nationale Teststrategie – wer wird in Deutschland auf das Vorliegen einer SARS-CoV-2 Infektion getestet?</a>
     <br>
 </div>
 
-<script>
-    const showAlert = ()=>{
-        alert("Möchten Sie diese Domain kaufen? Kontaktieren Sie diese E-Mail-Adresse für weitere Informationen: placeholder@dontcontactthis.example")
-    };
-    setInterval(showAlert,25000);
-</script>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <!-- Modal header-->
+        <div class="modal-header">
+          <h4 class="modal-title">Interesse am Kauf dieser Domain?</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>Wenn Sie Interesse am Kauf dieser Domain haben, setzen Sie sich bitte mit uns in Verbindung: rsjkgisites@gmail.com</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
 </body>
 </html>

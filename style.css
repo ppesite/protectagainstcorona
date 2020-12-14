@@ -1,16 +1,38 @@
 body  {
-    background-color:rgb(164, 209, 238);
+    background-color: rgb(164, 209, 238);
+    color: rgb(113, 122, 128);
+    font-family: 'Cairo', sans-serif;
+}
+
+.jumbotron  {
+    background-color: rgb(164, 209, 238);
+}
+
+.btn-contact  {
+    background-color: rgb(184, 81, 2);
+    color: rgb(255, 255, 255);
+}
+
+.bg-navbar  {
+    background-color: rgb(65, 73, 79);
 }
 
 h1  {
-    color:rgb(6, 80, 6);
+    color: rgb(0, 79, 42);
 }
 
 h2  {
-    color:rgb(196, 95, 0);
+    color: rgb(184, 81, 2);
 }
 
+h3  {
+    color: rgb(184, 91, 20);
+}
 a   {
-    color: rgb(46, 82, 199);
+    color: rgb(65, 73, 79);
 }
 
+a:hover {
+    color: rgb(65, 73, 79);
+    text-decoration: underline;
+}
